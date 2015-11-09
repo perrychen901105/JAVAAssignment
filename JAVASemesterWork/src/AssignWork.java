@@ -1,4 +1,7 @@
+import SectionOne.AssignFive;
+import SectionOne.AssignFour;
 import SectionOne.AssignOne;
+import SectionOne.AssignThree;
 import SectionOne.AssignTwo;
 
 
@@ -9,9 +12,9 @@ public class AssignWork {
 		/**
 		 * assign one
 		 */
-		System.out.println("input some value");
-		AssignOne ao = new AssignOne();
-		System.out.println(ao.getDegreeValue());
+//		System.out.println("input some value");
+//		AssignOne ao = new AssignOne();
+//		System.out.println(ao.getDegreeValue());
 		
 		/**
 		 * assign two
@@ -19,6 +22,24 @@ public class AssignWork {
 //		AssignTwo at = new AssignTwo();
 //		at.getArea();
 //		at.getVolume();
+		
+		/**
+		 * assign three
+		 */
+//		AssignThree aThree = new AssignThree();
+//		aThree.calculateNum();
+		
+		/**
+		 * assign four
+		 */
+		AssignFour aFour = new AssignFour();
+		aFour.getAllNums();
+		
+		/**
+		 * assign five
+		 */
+//		AssignFive aFive = new AssignFive();
+//		aFive.getNum();
 		
 		
 	}
