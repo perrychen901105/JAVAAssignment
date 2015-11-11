@@ -1,6 +1,7 @@
 import SectionOne.AssignFive;
 import SectionOne.AssignFour;
 import SectionOne.AssignOne;
+import SectionOne.AssignSix;
 import SectionOne.AssignThree;
 import SectionOne.AssignTwo;
 
@@ -32,8 +33,8 @@ public class AssignWork {
 		/**
 		 * assign four
 		 */
-		AssignFour aFour = new AssignFour();
-		aFour.getAllNums();
+//		AssignFour aFour = new AssignFour();
+//		aFour.getAllNums();
 		
 		/**
 		 * assign five
@@ -41,7 +42,11 @@ public class AssignWork {
 //		AssignFive aFive = new AssignFive();
 //		aFive.getNum();
 		
-		
+		/**
+		 * assign Six
+		 */
+		AssignSix aSix = new AssignSix();
+		aSix.getNewNum();
 	}
 
 }
